@@ -3,20 +3,38 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		A78145012371E81300C0CB87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78145002371E81300C0CB87 /* AppDelegate.swift */; };
-		A78145032371E81300C0CB87 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A78145022371E81300C0CB87 /* GameScene.sks */; };
-		A78145052371E81300C0CB87 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = A78145042371E81300C0CB87 /* Actions.sks */; };
 		A78145072371E81300C0CB87 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78145062371E81300C0CB87 /* GameScene.swift */; };
 		A78145092371E81300C0CB87 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78145082371E81300C0CB87 /* GameViewController.swift */; };
 		A781450C2371E81300C0CB87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A781450A2371E81300C0CB87 /* Main.storyboard */; };
 		A781450E2371E81400C0CB87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A781450D2371E81400C0CB87 /* Assets.xcassets */; };
 		A78145112371E81400C0CB87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A781450F2371E81400C0CB87 /* LaunchScreen.storyboard */; };
 		A781451C2371E81400C0CB87 /* SoundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A781451B2371E81400C0CB87 /* SoundTests.swift */; };
-		A78145272371E81400C0CB87 /* SoundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78145262371E81400C0CB87 /* SoundUITests.swift */; };
+		A78145272371E81400C0CB87 /* MusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78145262371E81400C0CB87 /* MusicUITests.swift */; };
+		A78145572372195300C0CB87 /* SwiftGameOfLife in Frameworks */ = {isa = PBXBuildFile; productRef = A78145562372195300C0CB87 /* SwiftGameOfLife */; };
+		A781455923734AF100C0CB87 /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = A781455823734AF100C0CB87 /* Events.swift */; };
+		A781455B2373833000C0CB87 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A781455A2373833000C0CB87 /* AudioManager.swift */; };
+		A781456B23739B3A00C0CB87 /* sound11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A781455C23739B3A00C0CB87 /* sound11.mp3 */; };
+		A781456C23739B3A00C0CB87 /* sound06.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A781455D23739B3A00C0CB87 /* sound06.mp3 */; };
+		A781456D23739B3A00C0CB87 /* sound04.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A781455E23739B3A00C0CB87 /* sound04.mp3 */; };
+		A781456E23739B3A00C0CB87 /* sound02.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A781455F23739B3A00C0CB87 /* sound02.mp3 */; };
+		A781456F23739B3A00C0CB87 /* sound14.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A781456023739B3A00C0CB87 /* sound14.mp3 */; };
+		A781457023739B3A00C0CB87 /* sound15.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A781456123739B3A00C0CB87 /* sound15.mp3 */; };
+		A781457123739B3A00C0CB87 /* sound09.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A781456223739B3A00C0CB87 /* sound09.mp3 */; };
+		A781457223739B3A00C0CB87 /* sound01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A781456323739B3A00C0CB87 /* sound01.mp3 */; };
+		A781457323739B3A00C0CB87 /* sound13.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A781456423739B3A00C0CB87 /* sound13.mp3 */; };
+		A781457423739B3A00C0CB87 /* sound00.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A781456523739B3A00C0CB87 /* sound00.mp3 */; };
+		A781457523739B3A00C0CB87 /* sound03.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A781456623739B3A00C0CB87 /* sound03.mp3 */; };
+		A781457623739B3A00C0CB87 /* sound12.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A781456723739B3A00C0CB87 /* sound12.mp3 */; };
+		A781457723739B3A00C0CB87 /* sound10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A781456823739B3A00C0CB87 /* sound10.mp3 */; };
+		A781457823739B3A00C0CB87 /* sound07.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A781456923739B3A00C0CB87 /* sound07.mp3 */; };
+		A781457923739B3A00C0CB87 /* sound05.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A781456A23739B3A00C0CB87 /* sound05.mp3 */; };
+		A781457B23739B6200C0CB87 /* silence.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A781457A23739B6200C0CB87 /* silence.mp3 */; };
+		A781457D23739B9100C0CB87 /* sound08.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A781457C23739B9100C0CB87 /* sound08.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,22 +55,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A78144FD2371E81300C0CB87 /* Sound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sound.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A78144FD2371E81300C0CB87 /* Music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Music.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A78145002371E81300C0CB87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A78145022371E81300C0CB87 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		A78145042371E81300C0CB87 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		A78145062371E81300C0CB87 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		A78145082371E81300C0CB87 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		A781450B2371E81300C0CB87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A781450D2371E81400C0CB87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A78145102371E81400C0CB87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A78145122371E81400C0CB87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A78145172371E81400C0CB87 /* SoundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A78145172371E81400C0CB87 /* MusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A781451B2371E81400C0CB87 /* SoundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundTests.swift; sourceTree = "<group>"; };
 		A781451D2371E81400C0CB87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A78145222371E81400C0CB87 /* SoundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A78145262371E81400C0CB87 /* SoundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundUITests.swift; sourceTree = "<group>"; };
+		A78145222371E81400C0CB87 /* MusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A78145262371E81400C0CB87 /* MusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicUITests.swift; sourceTree = "<group>"; };
 		A78145282371E81400C0CB87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A781455823734AF100C0CB87 /* Events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
+		A781455A2373833000C0CB87 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		A781455C23739B3A00C0CB87 /* sound11.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound11.mp3; sourceTree = "<group>"; };
+		A781455D23739B3A00C0CB87 /* sound06.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound06.mp3; sourceTree = "<group>"; };
+		A781455E23739B3A00C0CB87 /* sound04.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound04.mp3; sourceTree = "<group>"; };
+		A781455F23739B3A00C0CB87 /* sound02.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound02.mp3; sourceTree = "<group>"; };
+		A781456023739B3A00C0CB87 /* sound14.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound14.mp3; sourceTree = "<group>"; };
+		A781456123739B3A00C0CB87 /* sound15.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound15.mp3; sourceTree = "<group>"; };
+		A781456223739B3A00C0CB87 /* sound09.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound09.mp3; sourceTree = "<group>"; };
+		A781456323739B3A00C0CB87 /* sound01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound01.mp3; sourceTree = "<group>"; };
+		A781456423739B3A00C0CB87 /* sound13.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound13.mp3; sourceTree = "<group>"; };
+		A781456523739B3A00C0CB87 /* sound00.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound00.mp3; sourceTree = "<group>"; };
+		A781456623739B3A00C0CB87 /* sound03.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound03.mp3; sourceTree = "<group>"; };
+		A781456723739B3A00C0CB87 /* sound12.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound12.mp3; sourceTree = "<group>"; };
+		A781456823739B3A00C0CB87 /* sound10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound10.mp3; sourceTree = "<group>"; };
+		A781456923739B3A00C0CB87 /* sound07.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound07.mp3; sourceTree = "<group>"; };
+		A781456A23739B3A00C0CB87 /* sound05.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound05.mp3; sourceTree = "<group>"; };
+		A781457A23739B6200C0CB87 /* silence.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = silence.mp3; sourceTree = "<group>"; };
+		A781457C23739B9100C0CB87 /* sound08.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound08.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A78145572372195300C0CB87 /* SwiftGameOfLife in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,9 +119,9 @@
 		A78144F42371E81300C0CB87 = {
 			isa = PBXGroup;
 			children = (
-				A78144FF2371E81300C0CB87 /* Sound */,
-				A781451A2371E81400C0CB87 /* SoundTests */,
-				A78145252371E81400C0CB87 /* SoundUITests */,
+				A78144FF2371E81300C0CB87 /* Music */,
+				A781451A2371E81400C0CB87 /* MusicTests */,
+				A78145252371E81400C0CB87 /* MusicUITests */,
 				A78144FE2371E81300C0CB87 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,53 +129,78 @@
 		A78144FE2371E81300C0CB87 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A78144FD2371E81300C0CB87 /* Sound.app */,
-				A78145172371E81400C0CB87 /* SoundTests.xctest */,
-				A78145222371E81400C0CB87 /* SoundUITests.xctest */,
+				A78144FD2371E81300C0CB87 /* Music.app */,
+				A78145172371E81400C0CB87 /* MusicTests.xctest */,
+				A78145222371E81400C0CB87 /* MusicUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A78144FF2371E81300C0CB87 /* Sound */ = {
+		A78144FF2371E81300C0CB87 /* Music */ = {
 			isa = PBXGroup;
 			children = (
 				A78145002371E81300C0CB87 /* AppDelegate.swift */,
-				A78145022371E81300C0CB87 /* GameScene.sks */,
-				A78145042371E81300C0CB87 /* Actions.sks */,
 				A78145062371E81300C0CB87 /* GameScene.swift */,
+				A781455A2373833000C0CB87 /* AudioManager.swift */,
 				A78145082371E81300C0CB87 /* GameViewController.swift */,
+				A781455823734AF100C0CB87 /* Events.swift */,
 				A781450A2371E81300C0CB87 /* Main.storyboard */,
+				A78145342371EA9600C0CB87 /* sound */,
 				A781450D2371E81400C0CB87 /* Assets.xcassets */,
 				A781450F2371E81400C0CB87 /* LaunchScreen.storyboard */,
 				A78145122371E81400C0CB87 /* Info.plist */,
 			);
-			path = Sound;
+			path = Music;
 			sourceTree = "<group>";
 		};
-		A781451A2371E81400C0CB87 /* SoundTests */ = {
+		A781451A2371E81400C0CB87 /* MusicTests */ = {
 			isa = PBXGroup;
 			children = (
 				A781451B2371E81400C0CB87 /* SoundTests.swift */,
 				A781451D2371E81400C0CB87 /* Info.plist */,
 			);
-			path = SoundTests;
+			path = MusicTests;
 			sourceTree = "<group>";
 		};
-		A78145252371E81400C0CB87 /* SoundUITests */ = {
+		A78145252371E81400C0CB87 /* MusicUITests */ = {
 			isa = PBXGroup;
 			children = (
-				A78145262371E81400C0CB87 /* SoundUITests.swift */,
+				A78145262371E81400C0CB87 /* MusicUITests.swift */,
 				A78145282371E81400C0CB87 /* Info.plist */,
 			);
-			path = SoundUITests;
+			path = MusicUITests;
+			sourceTree = "<group>";
+		};
+		A78145342371EA9600C0CB87 /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				A781457A23739B6200C0CB87 /* silence.mp3 */,
+				A781456523739B3A00C0CB87 /* sound00.mp3 */,
+				A781456323739B3A00C0CB87 /* sound01.mp3 */,
+				A781455F23739B3A00C0CB87 /* sound02.mp3 */,
+				A781456623739B3A00C0CB87 /* sound03.mp3 */,
+				A781455E23739B3A00C0CB87 /* sound04.mp3 */,
+				A781456A23739B3A00C0CB87 /* sound05.mp3 */,
+				A781455D23739B3A00C0CB87 /* sound06.mp3 */,
+				A781456923739B3A00C0CB87 /* sound07.mp3 */,
+				A781457C23739B9100C0CB87 /* sound08.mp3 */,
+				A781456223739B3A00C0CB87 /* sound09.mp3 */,
+				A781456823739B3A00C0CB87 /* sound10.mp3 */,
+				A781455C23739B3A00C0CB87 /* sound11.mp3 */,
+				A781456723739B3A00C0CB87 /* sound12.mp3 */,
+				A781456423739B3A00C0CB87 /* sound13.mp3 */,
+				A781456023739B3A00C0CB87 /* sound14.mp3 */,
+				A781456123739B3A00C0CB87 /* sound15.mp3 */,
+			);
+			path = sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A78144FC2371E81300C0CB87 /* Sound */ = {
+		A78144FC2371E81300C0CB87 /* Music */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A781452B2371E81500C0CB87 /* Build configuration list for PBXNativeTarget "Sound" */;
+			buildConfigurationList = A781452B2371E81500C0CB87 /* Build configuration list for PBXNativeTarget "Music" */;
 			buildPhases = (
 				A78144F92371E81300C0CB87 /* Sources */,
 				A78144FA2371E81300C0CB87 /* Frameworks */,
@@ -149,14 +210,17 @@
 			);
 			dependencies = (
 			);
-			name = Sound;
+			name = Music;
+			packageProductDependencies = (
+				A78145562372195300C0CB87 /* SwiftGameOfLife */,
+			);
 			productName = Sound;
-			productReference = A78144FD2371E81300C0CB87 /* Sound.app */;
+			productReference = A78144FD2371E81300C0CB87 /* Music.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A78145162371E81400C0CB87 /* SoundTests */ = {
+		A78145162371E81400C0CB87 /* MusicTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A781452E2371E81500C0CB87 /* Build configuration list for PBXNativeTarget "SoundTests" */;
+			buildConfigurationList = A781452E2371E81500C0CB87 /* Build configuration list for PBXNativeTarget "MusicTests" */;
 			buildPhases = (
 				A78145132371E81400C0CB87 /* Sources */,
 				A78145142371E81400C0CB87 /* Frameworks */,
@@ -167,14 +231,14 @@
 			dependencies = (
 				A78145192371E81400C0CB87 /* PBXTargetDependency */,
 			);
-			name = SoundTests;
+			name = MusicTests;
 			productName = SoundTests;
-			productReference = A78145172371E81400C0CB87 /* SoundTests.xctest */;
+			productReference = A78145172371E81400C0CB87 /* MusicTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A78145212371E81400C0CB87 /* SoundUITests */ = {
+		A78145212371E81400C0CB87 /* MusicUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A78145312371E81500C0CB87 /* Build configuration list for PBXNativeTarget "SoundUITests" */;
+			buildConfigurationList = A78145312371E81500C0CB87 /* Build configuration list for PBXNativeTarget "MusicUITests" */;
 			buildPhases = (
 				A781451E2371E81400C0CB87 /* Sources */,
 				A781451F2371E81400C0CB87 /* Frameworks */,
@@ -185,9 +249,9 @@
 			dependencies = (
 				A78145242371E81400C0CB87 /* PBXTargetDependency */,
 			);
-			name = SoundUITests;
+			name = MusicUITests;
 			productName = SoundUITests;
-			productReference = A78145222371E81400C0CB87 /* SoundUITests.xctest */;
+			productReference = A78145222371E81400C0CB87 /* MusicUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -213,7 +277,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A78144F82371E81300C0CB87 /* Build configuration list for PBXProject "Sound" */;
+			buildConfigurationList = A78144F82371E81300C0CB87 /* Build configuration list for PBXProject "Music" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -222,13 +286,16 @@
 				Base,
 			);
 			mainGroup = A78144F42371E81300C0CB87;
+			packageReferences = (
+				A78145552372195300C0CB87 /* XCRemoteSwiftPackageReference "SwiftGameOfLife" */,
+			);
 			productRefGroup = A78144FE2371E81300C0CB87 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A78144FC2371E81300C0CB87 /* Sound */,
-				A78145162371E81400C0CB87 /* SoundTests */,
-				A78145212371E81400C0CB87 /* SoundUITests */,
+				A78144FC2371E81300C0CB87 /* Music */,
+				A78145162371E81400C0CB87 /* MusicTests */,
+				A78145212371E81400C0CB87 /* MusicUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -238,11 +305,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A781456E23739B3A00C0CB87 /* sound02.mp3 in Resources */,
+				A781456C23739B3A00C0CB87 /* sound06.mp3 in Resources */,
+				A781457623739B3A00C0CB87 /* sound12.mp3 in Resources */,
+				A781457723739B3A00C0CB87 /* sound10.mp3 in Resources */,
+				A781457323739B3A00C0CB87 /* sound13.mp3 in Resources */,
+				A781457523739B3A00C0CB87 /* sound03.mp3 in Resources */,
+				A781456B23739B3A00C0CB87 /* sound11.mp3 in Resources */,
+				A781457B23739B6200C0CB87 /* silence.mp3 in Resources */,
+				A781456D23739B3A00C0CB87 /* sound04.mp3 in Resources */,
 				A781450C2371E81300C0CB87 /* Main.storyboard in Resources */,
-				A78145032371E81300C0CB87 /* GameScene.sks in Resources */,
+				A781457023739B3A00C0CB87 /* sound15.mp3 in Resources */,
+				A781457223739B3A00C0CB87 /* sound01.mp3 in Resources */,
+				A781457923739B3A00C0CB87 /* sound05.mp3 in Resources */,
 				A781450E2371E81400C0CB87 /* Assets.xcassets in Resources */,
+				A781457123739B3A00C0CB87 /* sound09.mp3 in Resources */,
 				A78145112371E81400C0CB87 /* LaunchScreen.storyboard in Resources */,
-				A78145052371E81300C0CB87 /* Actions.sks in Resources */,
+				A781457823739B3A00C0CB87 /* sound07.mp3 in Resources */,
+				A781456F23739B3A00C0CB87 /* sound14.mp3 in Resources */,
+				A781457D23739B9100C0CB87 /* sound08.mp3 in Resources */,
+				A781457423739B3A00C0CB87 /* sound00.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,8 +349,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A781455923734AF100C0CB87 /* Events.swift in Sources */,
 				A78145072371E81300C0CB87 /* GameScene.swift in Sources */,
 				A78145092371E81300C0CB87 /* GameViewController.swift in Sources */,
+				A781455B2373833000C0CB87 /* AudioManager.swift in Sources */,
 				A78145012371E81300C0CB87 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,7 +369,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A78145272371E81400C0CB87 /* SoundUITests.swift in Sources */,
+				A78145272371E81400C0CB87 /* MusicUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,12 +378,12 @@
 /* Begin PBXTargetDependency section */
 		A78145192371E81400C0CB87 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A78144FC2371E81300C0CB87 /* Sound */;
+			target = A78144FC2371E81300C0CB87 /* Music */;
 			targetProxy = A78145182371E81400C0CB87 /* PBXContainerItemProxy */;
 		};
 		A78145242371E81400C0CB87 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A78144FC2371E81300C0CB87 /* Sound */;
+			target = A78144FC2371E81300C0CB87 /* Music */;
 			targetProxy = A78145232371E81400C0CB87 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -444,15 +528,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PV6ZXMXKDK;
-				INFOPLIST_FILE = Sound/Info.plist;
+				INFOPLIST_FILE = Music/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cacique.Sound;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cacique.Music;
+				PRODUCT_NAME = Music;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -462,15 +546,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PV6ZXMXKDK;
-				INFOPLIST_FILE = Sound/Info.plist;
+				INFOPLIST_FILE = Music/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cacique.Sound;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cacique.Music;
+				PRODUCT_NAME = Music;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -481,18 +565,18 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PV6ZXMXKDK;
-				INFOPLIST_FILE = SoundTests/Info.plist;
+				INFOPLIST_FILE = MusicTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cacique.SoundTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cacique.MusicTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sound.app/Sound";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Music.app/Music";
 			};
 			name = Debug;
 		};
@@ -503,18 +587,18 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PV6ZXMXKDK;
-				INFOPLIST_FILE = SoundTests/Info.plist;
+				INFOPLIST_FILE = MusicTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cacique.SoundTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cacique.MusicTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sound.app/Sound";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Music.app/Music";
 			};
 			name = Release;
 		};
@@ -561,7 +645,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A78144F82371E81300C0CB87 /* Build configuration list for PBXProject "Sound" */ = {
+		A78144F82371E81300C0CB87 /* Build configuration list for PBXProject "Music" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A78145292371E81500C0CB87 /* Debug */,
@@ -570,7 +654,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A781452B2371E81500C0CB87 /* Build configuration list for PBXNativeTarget "Sound" */ = {
+		A781452B2371E81500C0CB87 /* Build configuration list for PBXNativeTarget "Music" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A781452C2371E81500C0CB87 /* Debug */,
@@ -579,7 +663,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A781452E2371E81500C0CB87 /* Build configuration list for PBXNativeTarget "SoundTests" */ = {
+		A781452E2371E81500C0CB87 /* Build configuration list for PBXNativeTarget "MusicTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A781452F2371E81500C0CB87 /* Debug */,
@@ -588,7 +672,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A78145312371E81500C0CB87 /* Build configuration list for PBXNativeTarget "SoundUITests" */ = {
+		A78145312371E81500C0CB87 /* Build configuration list for PBXNativeTarget "MusicUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A78145322371E81500C0CB87 /* Debug */,
@@ -598,6 +682,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A78145552372195300C0CB87 /* XCRemoteSwiftPackageReference "SwiftGameOfLife" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/phcacique/SwiftGameOfLife.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A78145562372195300C0CB87 /* SwiftGameOfLife */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A78145552372195300C0CB87 /* XCRemoteSwiftPackageReference "SwiftGameOfLife" */;
+			productName = SwiftGameOfLife;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A78144F52371E81300C0CB87 /* Project object */;
 }
